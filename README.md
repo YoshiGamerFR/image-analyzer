@@ -15,5 +15,5 @@ I took this idea from <a href="https://www.youtube.com/watch?v=3p5PxYeiClU">Onem
 Please note that this program might be slow depending on your computer's hardware, as it is made in Python. I will try to improve this program with more quality of life functions, like asking the user what color the backdrop of the image is. <br>
 __You may contact me and suggest ideas for this project, and I will do my best to recreate them!__<br><br><br>
 ## If you downloaded the source code:
-Please create 2 new directories, one named "*images*" and one named "*output*".
+Please create 2 new directories, one named "*images*" and one named "*output*". 
 <footer>Check out my <a href="https://yoshigamerfr.github.io/">website!</a></footer>
