@@ -79,6 +79,9 @@ def image_analyzer(mode,file,backgroundColor="white"):
     else:
         analyze_image(mode,image,backgroundColor)
 
+if not "output" in os.listdir():
+    os.mkdir("./output",0o755)
+    print("Directory \"output\" not found, created \"output\" directory.")
 mode = input("Do you want the program to analyze a bunch of images inside of a folder or do you want it to analyze a single image?\n(\"file\" or \"folder\")")
 if mode == "file":
     image = input("Please type the name of the image to analyze WITH IT'S EXTENSION!\n")
@@ -89,4 +92,3 @@ if mode == "file":
     image_analyzer(mode,image,color)
 else:
     image_analyzer(mode,None,color)
-end_script()
