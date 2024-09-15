@@ -92,3 +92,4 @@ if mode == "file":
     image_analyzer(mode,image,color)
 else:
     image_analyzer(mode,None,color)
+end_script()
