@@ -12,13 +12,13 @@ I took this idea from <a href="https://www.youtube.com/watch?v=3p5PxYeiClU">Onem
 - The program then saves the image/s inside the "*output*" folder.
 <br><br>
 ## Disclaimer:
-Please note that this program might be slow depending on your computer's hardware, as it is made in Python. I will try to improve this program with more quality of life functions, like asking the user what color the backdrop of the image is. <br>
+Please note that this program might be slow depending on your computer's hardware, as it is made in Python. I will try to improve this program with more quality of life functions, like asking the user what color the backdrop of the image is.<br>
 __You may contact me and suggest ideas for this project, and I will do my best to recreate them!__<br><br><br>
 ## If you downloaded the source code:
 - If you are using the version v1.0.0 of the program:
   - Please create a folder named "output".
-  - If you want to use the "*folder*" mode, please create a directory named "**images**" and place the images you want to be analyzed in it.
+  - If you want to use the "**folder**" mode, please create a directory named "*images*" and place the images you want to be analyzed in it.
 - If you are using a newer version of the progam (v1.0.1 and above):
-  - If you want to use the "*folder*" mode, please create a directory named "**images**" and place the images you want to be analyzed in it.
+  - If you want to use the "**folder**" mode, please create a directory named "*images*" and place the images you want to be analyzed in it.
   <br><br>
 <footer>Check out my <a href="https://yoshigamerfr.github.io/">website!</a></footer>
