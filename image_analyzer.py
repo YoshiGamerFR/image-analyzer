@@ -42,7 +42,7 @@ def analyze_image(mode,image,backgroundColor="white"):
     white, black = (255,255,255), (0,0,0)
     for i in range(height):
         for j in range(lenght):
-            if img.getpixel((j,i)) <= (45, 205, 45):
+            if img.getpixel((j,i)) <= (25, 225, 25):
                 if backgroundColor == "white":
                     img.putpixel((j,i),white)
                 else:
@@ -55,7 +55,7 @@ def analyze_image(mode,image,backgroundColor="white"):
     if mode == "folder":
         img.save("../output/" + newFileName + ".png")
     else:
-        img.save("./output" + newFileName + ".png")
+        img.save("./output/" + newFileName + ".png")
 
 
 def image_analyzer(mode,file,backgroundColor="white"):
